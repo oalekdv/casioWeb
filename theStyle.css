@@ -1,0 +1,42 @@
+* { 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+:root { 
+   --P-Color: ;
+}
+
+body { 
+   height: 100vh;
+}
+
+header { 
+   display: flex;
+   flex-direction: column;
+}
+
+.signAndLogo { 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: gray;
+   width: 100%;
+
+   padding: 8px;
+}
+
+.principalNavH { 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: green;
+}
+
+
+
+.img-logo img {
+   text-align: center; 
+   height: 100px;
+}

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,800;1,700&family=Poppins&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    background-color: #b3b3b3;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 10px #252725;
+}
+
+.div-nav-um__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+}
+
+.logo-navUm {
+    margin-left: 18px;
+    padding: 8px;
+}
+
+.logo-navUm h1 {
+    font-size: 2rem;
+    font-family: 'Noto Sans';
+}
+
+.logo-navUm h1 span { 
+    color: #209209;
+}
+
+.navumcontainer {
+    display: flex;
+    justify-content: flex-end;
+   background-color: white;
+   text-align: center;
+}
+
+.nav__div-nav-um {
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+    text-align: center;
+}
+
+.nav__div-nav-um a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #121212;
+    text-decoration: none; 
+    font-size: 1.3rem;
+}
+
+.nav__div-nav-um a:hover {
+    color: rgb(40, 150, 113);
+}
+
+.div-nav-dois__content {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #209209;
+    align-items: center;
+}
+
+.div-nav-dois__content .nav-menu-times{
+    display: flex;
+    gap: 19px;
+}
+
+.nav-menu-times a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+    margin-left: 18px;
+}
+
+.div-nav-dois__content .logo img{
+        height: 90px;
+}
+
+.div-nav-dois__content .search-nav input{
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    width: 130px;
+    color: #000;
+    outline: none;
+
+}
+
+
+
+
+.container { 
+    margin: 20px;
+    width: 800px;
+    height: 300px;
+    background-color: #252725;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px 2px #0000006b;
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+
+.imageDuCassio { 
+    width: 50%;
+    background-image: url('/assets/icons-images/cassioEntrevista.jpeg');
+    background-repeat: no-repeat;
+    background-position: center
+    ;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+
+.noticiaCasioEButao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.container > .noticiaCasioEButao p { 
+    color: #1861e9;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.noticiaCasioEButao a { 
+    background-color: #bdff08;
+    color: #610303; 
+    height: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    
+}
+
+.noticiaCasioEButao a:hover { 
+    background-color: #042c27;
+    transition: 0.6s;
+    color: #1861e9;
+}
+
+
+
