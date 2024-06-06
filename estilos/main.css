@@ -240,8 +240,10 @@ section {
     width: 100%;
     gap: 10px;
     flex-wrap: wrap;
-    overflow: scroll;
-    overflow-x: hidden;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #777777  transparent;
+    overscroll-behavior: unset;
 }
 
 
