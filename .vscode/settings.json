@@ -1,0 +1,7 @@
+{
+  "editor.tabSize": 2,
+  "files.autoSave": "afterDelay",
+  "editor.detectIndentation": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorStyle": "line-thin",
+}

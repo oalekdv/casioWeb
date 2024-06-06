@@ -31,7 +31,7 @@ header {
 .logo-navUm {
     margin-left: 18px;
     padding: 8px;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 .logo-navUm h1 {
@@ -70,12 +70,14 @@ header {
 }
 .div-nav-dois { 
     
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .div-nav-dois__content {
     display: flex;
-    border: 1px solid black;
+    align-items: center;
+    background-color: #209209;
+    /* border: 1px solid black; */
 }
 
 .div-nav-dois__content > .box {
@@ -84,41 +86,55 @@ header {
 }
 
 .nav-menu-times{
-    border: 2px solid rgb(50, 28, 193);
-}
-
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    /* border: 2px solid rgb(50, 28, 193); */
+    width: fit-content;
+ }
+    
 .nav-menu-times a {
-    display: block;
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    text-align: center;
+    font-size: 17px;
     font-family: 'Poppins';
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    transition: scale .35s;
 }
 
+.nav-menu-times a:hover {
+    scale: 1.03;
+}
+
+        
 .logo { 
-    display: flex;
-    justify-content: center;
-    border: 2px solid #888444;
+display: flex;
+justify-content: center;
+/* border: 2px solid #888444; */
 }
 
 .div-nav-dois__content .logo img{
-        height: 95px;
-        border: 1px solid;
+        height: 90px;
+        /* border: 1px solid; */
 }
 
 .search-nav{ 
-    border: 1px solid;
+    text-align: end;
+    padding-right: 10px;
+    /* border: 1px solid; */
 }
 
 .div-nav-dois__content .search-nav input{
     border: none;
     border-radius: 4px;
-    padding: 8px;
-    width: 130px;
+    padding: 10px;
+    width: 180px;
     color: #000;
     outline: none;
-
+    font-size: 18px;
 }
 
 main { 
@@ -186,6 +202,7 @@ main {
     
     color: #1861e9;
 }
+
 
 
 
