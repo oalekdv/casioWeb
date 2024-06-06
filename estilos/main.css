@@ -139,11 +139,33 @@ justify-content: center;
 
 main { 
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
-    padding: 10px;
 }
 
+.destaque {
+    border: 1px solid black;
+    width: 100%;
+    height: 500px;
+}
+
+.banner {
+    background-image: url('../assets/icons-images/cassio.jpeg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-color: #1861e9;
+    border: 1px solid black;
+    height: 100%;
+    background-attachment: fixed;
+
+
+}
+
+.banner img {
+    height: 180px;
+}
 
 .container { 
     margin: auto;
@@ -198,11 +220,76 @@ main {
 }
 
 .noticiaCasioEButao a:hover { 
-    background-color: #042c27;
+    background-color: #404e4d;
     
-    color: #1861e9;
+    /* color: #1861e9; */
 }
 
+section {
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+
+.box-news {
+    
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    background-color: #fff;
+    padding: 8px;
+    width: 350px;
+    border-radius: 6px;
+}
+.box-news a {
+    text-decoration: none;
+}
+.headerzinho { 
+    padding: 15px 0;
+    border-bottom: 1px solid;
+}
+
+.headerzinho a {
+    text-decoration: none;
+    
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif
+}
+.box-news a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1.3px;
+}
+.newsImage {
+    height: 320px;
+    background-image: url('../assets/icons-images/corinthians-se-reapresentou-nesta-quarta-feira-28941w.jpg');
+    background-size: cover;
+ 
+}
+
+.newsContent {
+    width: 100%;
+}
+.newsContent a {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    word-spacing: 1px;
+    text-align: justify;
+}
 
 
 
