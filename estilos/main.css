@@ -145,7 +145,6 @@ main {
 }
 
 .destaque {
-    border: 1px solid black;
     width: 100%;
     height: 500px;
 }
@@ -178,6 +177,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
+    margin: 10px;
 }
 
 .imageDuCassio { 
@@ -198,9 +198,17 @@ main {
     
 }
 
+/* 
+    arquitetura de informação 
+    - forma de organizar o conteúdo 
+    usabilidade 
+
+
+*/
+
 .container > .noticiaCasioEButao p { 
     color: #1861e9;
-    font-size: 1em;
+    font-size: 22px;
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
 }
