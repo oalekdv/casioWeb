@@ -60,7 +60,7 @@ header {
 
 .nav__div-nav-um a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #ffffff;
+    color: #000000;
     text-decoration: none; 
     font-size: 1.3rem;
 }
@@ -102,6 +102,21 @@ header {
 }
 
 .nav-menu-times a:hover {
+    scale: 1.03;
+}
+
+.nav-menu-times p {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Poppins';
+    /* border: 2px solid red; */
+    transition: scale .35s;
+    cursor: pointer;
+}
+
+.nav-menu-times p:hover {
     scale: 1.03;
 }
 
