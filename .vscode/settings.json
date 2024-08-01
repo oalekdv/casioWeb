@@ -4,4 +4,7 @@
   "editor.detectIndentation": true,
   "editor.cursorBlinking": "smooth",
   "editor.cursorStyle": "line-thin",
+  "editor.renderWhitespace": "selection",
+  "editor.accessibilitySupport": "auto",
+  "editor.codeActionWidget.showHeaders": true,
 }
