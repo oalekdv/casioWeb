@@ -68,10 +68,6 @@ header {
 .nav__div-nav-um a:hover {
     color: rgb(40, 150, 113);
 }
-.div-nav-dois { 
-    
-    /* border: 1px solid red; */
-}
 
 .div-nav-dois__content {
     display: flex;
